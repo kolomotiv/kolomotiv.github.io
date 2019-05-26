@@ -29,7 +29,7 @@
   -webkit-animation-name: snake;
   animation-name: snake;
   -webkit-animation-duration: 0, 6s;
-  animation-duration: 0, 6s;
+  animation-duration: 0, 7s;
 }
 
 @-webkit-keyframes snake {
