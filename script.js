@@ -85,25 +85,22 @@ window.addEventListener("keydown",function(evt){
 var slideIndex=0;
 
 
-function showSlides (n){
-      // if (n>slides.length){
-      //    slideIndex =1;
-      // }
-      // if(n < 1){
-      //    slideIndex= slides.length;
-      // }
+function showSlides (){
+  if (slideIndex>=slides.length)
+    slideIndex =0;
         dot.forEach((item)=>item.classList.remove("dot-active"));
         slides.forEach((item)=>item.classList.add("visually-hidden"));
+        slides.forEach((item)=>item.classList.remove("fade"));
         slides[slideIndex].classList.remove("visually-hidden");
+        slides[slideIndex].classList.add("fade");
          dot[slideIndex ].classList.add("dot-active");
       };
 
 
-// function plusSlides(n){
-//   showSlides(slideIndex +=n);
+function plusSlides(){
+showSlides(slideIndex +=1);//прибавление слайдов
+};
 
-// };
-// plusSlides(0);
 function currentSlide(n){
   showSlides(slideIndex=n);
 };
@@ -119,7 +116,8 @@ function doter (){
  };
 
 doter();
+setInterval(plusSlides,5000);
 
 
-// setTimeout (doter,2000);
+
 
