@@ -1,0 +1,390 @@
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    width: 100%;
+}
+
+h1,
+h2,
+h3{
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+color: #232832;
+}
+span,
+p,
+a{
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 400;
+}
+
+.page-header{
+    width: 100%;
+}
+
+.page-header__wrapper{
+    width:100%;
+    background-color: #232832;
+    margin: 0 auto;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.page-header__navigation{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.page-header__logo{
+    display: block;
+    width: 400px;
+}
+.page-header__logo:hover,
+.page-header__logo:focus{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.page-header__list{
+    list-style: none;
+    display: flex;
+    width: 900px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.page-header__item{
+    
+    cursor: pointer;
+  
+    padding: 5px 5px;
+}
+.page-header__link{
+ text-transform: uppercase;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 12px 14px;
+}
+.page-header__link--active{
+    position: relative;
+}
+
+.page-header__link--active::after {
+    content: "";
+    position: absolute;
+    right: 20px;
+    bottom:0;
+    left: 20px;
+    height: 3px;
+  
+    
+    background-color: #ffffff;
+  }
+
+.page-header__item:hover,
+.page-header__item:focus{
+    opacity: 0.6;
+}
+
+
+
+.title__wrapper{
+    background: rgba(0,0,0,0.9);
+  padding: 400px 400px;
+    background-image: url("/Images/Color Fill 1.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 100;
+
+}
+.title__title{
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.title__slogan{
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.about-us{
+    width: auto;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin-bottom: 80px;
+    padding: 50px 0;
+   /* display: flex;
+   flex-direction: row;
+   align-items: center; */
+      /* justify-content: space-between; */
+}
+.about-us__wrapper{
+    text-align: center;
+    margin: 0 auto;
+}
+.about-us__title{
+    text-align: center;
+    color:  #232832;
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.about-us__text{
+    font-size:  20px;
+    display: inline-block;
+    width: 700px;
+font-weight: 400;
+    margin: 0 auto;
+    color:  #232832;
+    margin-bottom: 50px;
+}
+
+
+
+
+.advantages{
+   background-color: #f2f2f2;
+   padding: 50px 0;
+   margin-bottom: 80px;
+}
+.advantages__wrapper{
+    margin: 0 auto;
+    text-align: center;
+    width: 1200px;
+}
+.advantages__title{
+   
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+
+}
+.advantages h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+.advantages__list{
+ width: 1200px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+}
+.advantages__item{
+    text-align: center;
+    width: 360px;
+    margin-right: 40px;
+    position: relative;
+}
+.advantages__item p{
+    text-align: start;
+    margin-bottom: 25px;
+}
+.advantages__item:nth-child(1)::before{
+position: absolute;
+content: "";
+top: 10px;
+left:2px;
+width:40px;
+height: 40px;
+background-image: url("/Icons/icons8-рождественская-звезда-64.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+.advantages__item:nth-child(2)::before{
+    position: absolute;
+    content: "";
+    top: 10px;
+    left:0px;
+    width:40px;
+    height: 40px;
+    background-image: url("/Icons/icons8-чат-filled-50.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+    .advantages__item:nth-child(3)::before{
+        position: absolute;
+        content: "";
+        top: 10px;
+        left:0px;
+        width:40px;
+        height: 40px;
+        background-image: url("/Icons/icons8-люди,-работающие-вместе-filled-100.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        }
+        .advantages__item:nth-child(4)::before{
+            position: absolute;
+            content: "";
+            top: 10px;
+            left:1px;
+            width:40px;
+            height: 40px;
+            background-image: url("/Icons/icons8-часы-128.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            }
+            .advantages__item:nth-child(5)::before{
+                position: absolute;
+                content: "";
+                top: 10px;
+                left:1px;
+                width:40px;
+                height: 40px;
+                background-image: url("/Icons/icons8-подарок-100.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                }
+                .advantages__item:nth-child(6)::before{
+                    position: absolute;
+                    content: "";
+                    top: 10px;
+                    left:2px;
+                    width:40px;
+                    height: 40px;
+                    background-image: url("/Icons/icons8-вай-фай-100.png");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    }
+                
+    
+
+
+.footer  {
+    width: 100%;
+    background-color: #232832;
+    padding: 0;
+    margin: 0;
+    left: 0;
+}
+.footer__wrapper{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232832;
+}
+.footer__list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+.footer__item:hover,
+.footer__item:focus
+{
+opacity: 0.6;
+}
+.footer__logo:focus,
+.footer__logo:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.footer__text{
+    width:200px;
+}
+.footer__text span{
+color: #ffffff;
+}
+.footer__text a{
+    
+    color: #ffffff;
+}
+.social-btn-vk{
+    width: 40px;
+    height: 40px;
+    background-image: url("/svg/icons8-вконтакте.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.social-btn-vk{
+    position: relative;
+}
+
+.social-btn-vk::before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top:1px;
+    left: 1px;
+    background-image: url("/svg/icons8-вконтакте (1).svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+background-size: contain;  
+}
+.social-btn-instagram{
+    position: relative;
+}
+
+.social-btn-instagram::before {
+    content: "";
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    top:1px;
+    left: 1px;
+    background-image: url("/svg/icons8-instagram (1).svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+background-size: contain;  
+}
+
+.social-btn-whatsapp{
+    position: relative;
+}
+
+.social-btn-whatsapp::before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top:1px;
+    left: 1px;
+    background-image: url("/svg/icons8-whatsapp\ \(1\).svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+background-size: contain;  
+}
+.tel:hover,
+.tel:focus{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
