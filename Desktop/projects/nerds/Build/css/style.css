@@ -428,6 +428,7 @@ p {
   .title__wrapper {
     width: 1200px;
     height: 580px;
+    padding:0;
   }
   .title__main {
     margin: 0;
