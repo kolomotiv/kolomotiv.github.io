@@ -307,7 +307,7 @@ p {
     padding-right: 50px;
     padding-top: 50px;
     padding-bottom: 600px;
-    background-image: url("../../Images/index-background-desktop.png");
+    background-image: url("../Images/index-background-desktop.png");
     background-position: center;
     background-size: cover;
     -webkit-box-sizing: border-box;
