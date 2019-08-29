@@ -75,7 +75,7 @@ p {
   border: none;
   cursor: pointer;
   background-color: #ffffff;
-  background-image: url("../svg/Vector-Smart-Object.svg");
+  background-image: url("../../svg/Vector-Smart-Object.svg");
   background-position: top;
   outline: none;
   background-repeat: no-repeat;
@@ -128,7 +128,7 @@ p {
   list-style: none;
 }
 .site-list__item {
-  background-image: url("../Images/Layer 1 copy 2.png");
+  background-image: url("../../Images/Layer 1 copy 2.png");
   background-repeat: no-repeat;
   background-position: top center;
   text-align: center;
@@ -349,7 +349,7 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url("../Images/index-background-mobile.png");
+  background-image: url("../../Images/index-background-mobile.png");
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
@@ -535,7 +535,7 @@ p {
   left: 3px;
   width: 58px;
   height: 58px;
-  background-image: url("svg/cat1.svg");
+  background-image: url("../../svg/cat1.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -549,7 +549,7 @@ p {
   left: -8px;
   width: 75px;
   height: 75px;
-  background-image: url("../svg/cat2.svg");
+  background-image: url("../../svg/cat2.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -563,7 +563,7 @@ p {
   padding-left: 20px;
   font-size: 16px;
   line-height: 24px;
-  background-image: url("../Images/Layer 1 copy 2.png");
+  background-image: url("../../Images/Layer 1 copy 2.png");
   background-repeat: no-repeat;
   background-position: bottom;
   color: #444444;
@@ -727,25 +727,25 @@ p {
   margin-right: 18px;
 }
 .advantages__logo--first {
-  background-image: url("/Images/advantage-1.png");
+  background-image: url("../../Images/advantage-1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 29px 31px;
 }
 .advantages__logo--second {
-  background-image: url("/Images/andvantage-2.png");
+  background-image: url("../../Images/andvantage-2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 29px 31px;
 }
 .advantages__logo--third {
-  background-image: url("/Images/advantage-3.png");
+  background-image: url("../../Images/advantage-3.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 27px 29px;
 }
 .advantages__logo--fourth {
-  background-image: url("/Images/advantage-4.png");
+  background-image: url("../../Images/advantage-4.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 29px 31px;
@@ -808,7 +808,7 @@ p {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    background-image: url("/Images/Layer\ 1\ copy\ 2.png");
+    background-image: url("../../Images/Layer\ 1\ copy\ 2.png");
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -824,31 +824,31 @@ p {
         -ms-flex-direction: column;
             flex-direction: column;
     margin-bottom: 80px;
-    background-image: url("/Images/1.png");
+    background-image: url("../../Images/1.png");
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
   }
   .advantages__item:nth-child(1) {
-    background-image: url("/Images/1.png");
+    background-image: url("../../Images/1.png");
     background-position: center right;
     background-repeat: no-repeat;
     background-size: contain;
   }
   .advantages__item:nth-child(2) {
-    background-image: url("/Images/2.png");
+    background-image: url("../../Images/2.png");
     background-position: center right;
     background-repeat: no-repeat;
     background-size: contain;
   }
   .advantages__item:nth-child(3) {
-    background-image: url("/Images/3.png");
+    background-image: url("../../Images/3.png");
     background-position: center right;
     background-repeat: no-repeat;
     background-size: contain;
   }
   .advantages__item:nth-child(4) {
-    background-image: url("/Images/4.png");
+    background-image: url("../../Images/4.png");
     background-position: center right;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1011,7 +1011,7 @@ p {
           justify-content: space-between;
 }
 .scale__img {
-  background-image: url("/Images/before-after scale.png");
+  background-image: url("../../Images/before-after scale.png");
   background-repeat: no-repeat;
   background-position: center;
   width: 92px;
@@ -1021,7 +1021,7 @@ p {
 .scale__img::before {
   content: "";
   position: absolute;
-  background-image: url("/Images/before-after\ scale\ copy.png");
+  background-image: url("../../Images/before-after\ scale\ copy.png");
   background-repeat: no-repeat;
   top: 22px;
   left: 10px;
@@ -1057,7 +1057,7 @@ p {
     margin-bottom: 65px;
   }
   .scale__img {
-    background-image: url("/Images/before-after scale-tablet.png");
+    background-image: url("../../Images/before-after scale-tablet.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1074,7 +1074,7 @@ p {
     background-color: #ffffff;
     border: 1px solid #e2e2e2;
     border-radius: 50%;
-    background-image: url("/Images/slider control.png");
+    background-image: url("../../Images/slider control.png");
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -1288,7 +1288,7 @@ p {
 }
 .social__wrapper {
   width: 100%;
-  background-image: url("/Images/Layer 1 copy 2.png");
+  background-image: url("../../Images/Layer 1 copy 2.png");
   background-repeat: no-repeat;
   background-position: bottom ;
   background-size: contain;
@@ -1301,7 +1301,7 @@ p {
 .textlogo__link {
   display: block;
   width: auto;
-  background-image: url("/Images/Layer 1 copy 2.png");
+  background-image: url("../../Images/Layer 1 copy 2.png");
   background-repeat: no-repeat;
   background-position: bottom  center;
   background-size: contain;
@@ -1482,7 +1482,7 @@ p {
   width: auto;
   text-align: center;
   background-position: top center;
-  background-image: url("/Images/Layer 1 copy 2.png");
+  background-image: url("../../Images/Layer 1 copy 2.png");
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: contain;
@@ -1502,7 +1502,7 @@ p {
 .catalog__item {
   margin-bottom: 25px;
   padding-bottom: 23px;
-  background-image: url("/Images/Layer 1 copy 2.png");
+  background-image: url("../../Images/Layer 1 copy 2.png");
   background-repeat: no-repeat;
   background-position: bottom center;
 }
@@ -1556,7 +1556,7 @@ p {
   opacity: 0.2;
   width: 38px;
   height: 38px;
-  background-image: url("/svg/cross.svg");
+  background-image: url("../../svg/cross.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1738,7 +1738,7 @@ p {
   line-height: 24px;
   padding-top: 33px;
   padding-bottom: 33px;
-  background-image: url("/Images/Layer 1 copy 2.png");
+  background-image: url("../../Images/Layer 1 copy 2.png");
   background-repeat: no-repeat;
   background-position: bottom center;
   display: -webkit-box;
@@ -1767,7 +1767,7 @@ p {
   list-style: none;
 }
 .extra-goods__item {
-  background-image: url("/Images/Layer 1 copy 2.png");
+  background-image: url("../../Images/Layer 1 copy 2.png");
   background-repeat: no-repeat;
   background-position: bottom center;
   padding-top: 15px;
@@ -1977,7 +1977,7 @@ p {
 .gift__text::after {
   content: "";
   position: absolute;
-  background-image: url("/Images/gift.png");
+  background-image: url("../../Images/gift.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1990,7 +1990,7 @@ p {
   height: 290px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-image: url("/Images/gift-photo-mobile.png");
+  background-image: url("../../Images/gift-photo-mobile.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2008,7 +2008,7 @@ p {
     height: 200px;
     margin: 0 auto;
     padding: 0;
-    background-image: url("/Images/gift-photo-tablet.png");
+    background-image: url("../../Images/gift-photo-tablet.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2029,7 +2029,7 @@ p {
   .gift__wrapper {
     width: 245px;
     height: 290px;
-    background-image: url("/Images/gift-photo-desktop.png");
+    background-image: url("../../Images/gift-photo-desktop.png");
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-box-sizing: border-box;
