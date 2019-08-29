@@ -75,7 +75,7 @@ p {
   border: none;
   cursor: pointer;
   background-color: #ffffff;
-  background-image: url("svg/Vector-Smart-Object.svg");
+  background-image: url("../svg/Vector-Smart-Object.svg");
   background-position: top;
   outline: none;
   background-repeat: no-repeat;
@@ -128,7 +128,7 @@ p {
   list-style: none;
 }
 .site-list__item {
-  background-image: url("Images/Layer 1 copy 2.png");
+  background-image: url("../Images/Layer 1 copy 2.png");
   background-repeat: no-repeat;
   background-position: top center;
   text-align: center;
@@ -307,7 +307,7 @@ p {
     padding-right: 50px;
     padding-top: 50px;
     padding-bottom: 600px;
-    background-image: url("Images/index-background-desktop.png");
+    background-image: url("../Images/index-background-desktop.png");
     background-position: center;
     background-size: cover;
     -webkit-box-sizing: border-box;
@@ -349,7 +349,7 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url("Images/index-background-mobile.png");
+  background-image: url("../Images/index-background-mobile.png");
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
@@ -549,7 +549,7 @@ p {
   left: -8px;
   width: 75px;
   height: 75px;
-  background-image: url("svg/cat2.svg");
+  background-image: url("../svg/cat2.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -563,7 +563,7 @@ p {
   padding-left: 20px;
   font-size: 16px;
   line-height: 24px;
-  background-image: url("/Images/Layer 1 copy 2.png");
+  background-image: url("../Images/Layer 1 copy 2.png");
   background-repeat: no-repeat;
   background-position: bottom;
   color: #444444;
